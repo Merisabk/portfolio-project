@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+  <title> Merisa's Work | Merisa Bishwakarma</title>
+    <meta
+      name="description"
+      content="Merisa is a front-end engineer based in London.|  Merisa's Projects"
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -32,6 +36,25 @@
     ></script>
   </head>
   <body>
+     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a class="navbar-brand d-none d-md-flex" href="index.html">Merisa Bk</a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Merisa">About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Merisa's work">Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact Merisa">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-container">
     
           <div class="content">
@@ -39,21 +62,21 @@
           
             <div class="row">
               <div class="col-md-6 mb-4">
-                <img src="images/yogurt.png" class="img-fluid mb-3" alt=""/> 
+                <img src="images/yogurt.png" class="img-fluid mb-3" alt="yogurt"/> 
                
                 <h3 class="text-center">Yogurt Project</h3>
                 <p class="text-center text-muted">Built with HTML and CSS</p>
               </div>
 
               <div class="col-md-6">
-                <img src="images/weather.png" class="img-fluid mb-3" alt=""/> 
+                <img src="images/weather.png" class="img-fluid mb-3" alt="weather app"/> 
                
                 <h3 class="text-center">Weather Project</h3>
                 <p class="text-center text-muted">Built with HTML, CSS and JavaScript</p>
               </div>
 
               <div class="col-md-6">
-                <img src="images/yoga.png" class="img-fluid mb-3" alt=""/> 
+                <img src="images/yoga.png" class="img-fluid mb-3" alt="yoga"/> 
                
                 <h3 class="text-center">Yoga Project</h3>
                 <p class="text-center text-muted">Built with HTML, CSS and JavaScript</p>
@@ -61,5 +84,55 @@
             </div>
     </div>
     <!--/container-->
+     <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="contact Merisa"
+              class="btn btn-branding"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:bishwakarma.merisa@gmail.com"
+            class="email-link"
+            title="Email Merisa"
+            >bishwakarma.merisa@gmail.com
+          </a>
+        </div>
+
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.instagram.com/merisabishwakarma/"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/Merisabk"
+            target="_blank"
+            title="Github profile"
+            ><i class="fab fa-github"></i>
+          </a>
+        </div>
+        <p class="text-center mt-3">
+          This project was coded by Merisa Bishwakarma and it is<a
+            href="https://github.com/Merisabk/portfolio-project"
+            target="_blank"
+          >
+            open-sorced</a
+          >.
+        </p>
+      </footer>
   </body>
 </html>
